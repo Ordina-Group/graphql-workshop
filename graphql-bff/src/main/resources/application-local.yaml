@@ -1,0 +1,11 @@
+fleet:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8081
+
+employee:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8080

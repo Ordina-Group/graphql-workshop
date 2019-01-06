@@ -1,0 +1,19 @@
+version: '3'
+services:
+  fleet:
+    build: ./fleet
+    image: fleet:latest
+    ports:
+      - 8081:8081
+  employee:
+    build: ./employee
+    image: employee:latest
+    ports:
+      - 8080:8080
+  graphql-bff:
+    build: ./graphql-bff
+    image: graphql-bff:latest
+    ports:
+      - 8082:8082
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker

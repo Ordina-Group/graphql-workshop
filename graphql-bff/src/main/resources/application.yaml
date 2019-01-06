@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: graphql-bff
+server:
+  port: 8082
