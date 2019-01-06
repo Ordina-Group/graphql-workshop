@@ -1,0 +1,11 @@
+fleet:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: fleet:8081
+
+employee:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: employee:8080
