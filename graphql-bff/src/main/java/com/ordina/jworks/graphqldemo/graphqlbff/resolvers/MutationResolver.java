@@ -15,6 +15,7 @@ public class MutationResolver implements GraphQLMutationResolver {
                                 String carLicensePlate,
                                 ContractType contractType
                                 ) {
+        //TODO implement method
         return null;
     }
 

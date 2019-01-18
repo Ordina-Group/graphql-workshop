@@ -11,19 +11,23 @@ import java.util.Collection;
 @Component
 public class QueryResolver implements GraphQLQueryResolver{
 
-    public Employee getEmployee(Integer id, DataFetchingEnvironment env) {
+    public Employee getEmployee(Integer id) {
+        //TODO implement method
         return null;
     }
 
-    public Collection<Employee> getEmployees(DataFetchingEnvironment env) {
+    public Collection<Employee> getEmployees() {
+        //TODO implement method
         return null;
     }
 
     public Car getCar(Integer id){
+        //TODO implement method
         return null;
     }
 
     public Collection<Car> getCars(){
+        //TODO implement method
         return null;
     }
 }

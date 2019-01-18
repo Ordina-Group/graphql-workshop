@@ -12,6 +12,7 @@ import java.util.concurrent.CompletableFuture;
 public class EmployeeResolver implements GraphQLResolver<Employee> {
 
     public CompletableFuture<Car> car(Employee employee){
+        //TODO implement method
         return null;
     }
 }
